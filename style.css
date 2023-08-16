@@ -75,6 +75,7 @@ main {
   padding: 2rem 0;
   background-color: #f9f9f9;
   color: #4A525A;
+  border-radius: 5%;
 }
 
 .intro-text h2 {
@@ -103,7 +104,7 @@ main {
   margin-bottom: 2rem;
   display: flex;
   justify-content: space-around;
-  flex: auto;
+  margin: auto;
 }
 
 .property-card {
@@ -111,7 +112,6 @@ main {
   border-radius: 5px;
   padding: 1rem;
   margin-bottom: 2rem;
-  margin: auto;
   box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.8); /* Add shadow */
 }
 
@@ -145,6 +145,7 @@ main {
   display: flex;
   justify-content: space-around;
   color: #4A525A;
+  border-radius: 5%;
 }
 
 /* Agent info section styling */

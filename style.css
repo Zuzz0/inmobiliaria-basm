@@ -1,0 +1,204 @@
+/* Reset some default styling */
+body, h1, h2, h3, p, ul, li, a {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  color: inherit;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #004BA8;
+}
+
+/* Header styling */
+header {
+  background-color: #4A525A;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 0;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  max-height: 60px;
+}
+
+nav ul {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+  flex-shrink: 1;
+}
+
+nav a {
+  font-size: 0.7rem;
+  color: #EAEFD3;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 1px;
+  transition: color 0.3s ease-in-out;
+  flex-shrink: 1;
+}
+
+nav a:hover {
+  color: #f9ca24;
+}
+
+.company-name {
+  font-size: 1rem;
+  margin-left: 1rem;
+}
+
+
+/* Main content styling */
+main {
+  padding: 1rem;
+  color: #EAEFD3;
+}
+
+/* Introduction section styling */
+#intro {
+  text-align: center;
+  padding: 2rem 0;
+  background-color: #f9f9f9;
+  color: #4A525A;
+}
+
+.intro-text h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.explore-link {
+  font-size: 1rem;
+  display: inline-block;
+  margin-top: 1.5rem;
+  padding: 0.5rem 1rem;
+  background-color: #333;
+  color: white;
+  border-radius: 5px;
+  text-transform: uppercase;
+}
+
+/* Properties section styling */
+#properties {
+  padding: 2rem 0;
+}
+
+.properties-for-sale,
+.properties-for-rent {
+  margin-bottom: 2rem;
+  display: flex;
+  justify-content: space-around;
+  flex: auto;
+}
+
+.property-card {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 1rem;
+  margin-bottom: 2rem;
+  margin: auto;
+  box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.8); /* Add shadow */
+}
+
+.property-card img {
+  max-width: 100%;
+  border-radius: 5px;
+}
+
+.property-image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.property-card ul {
+  margin-top: 1rem;
+}
+
+.property-card ul li {
+  margin-bottom: 0.5rem;
+}
+
+.property-card a {
+  color: #007bff;
+}
+
+/* Agent info section styling */
+#agent-info {
+  padding: 2rem 0;
+  background-color: #EAEFD3;
+  display: flex;
+  justify-content: space-around;
+  color: #4A525A;
+}
+
+/* Agent info section styling */
+.agent-card {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 1rem;
+  margin-bottom: 2rem;
+  text-align: center;
+  box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.8); /* Add shadow */
+}
+
+.agent-card img {
+  max-width: 100px;
+  border-radius: 50%;
+}
+
+.agent-card h3 {
+  font-size: 1.25rem;
+  margin-top: 1rem;
+}
+
+.agent-card p {
+  margin-bottom: 0.5rem;
+}
+
+.agent-card a {
+  color: #007bff;
+}
+
+/* Footer styling */
+footer {
+  background-color: #4A525A;
+  color: #EAEFD3;
+  text-align: center;
+  padding: 2rem 0;
+}
+
+.footer-content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.footer-content p {
+  margin: 0;
+  font-size: 0.875rem;
+}
+
+.social-media a {
+  display: inline-block;
+  margin: 0 0.625rem;
+}
+
+.social-media img {
+  width: 1.5rem;
+  height: 1.5rem;
+}
